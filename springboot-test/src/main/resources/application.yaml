@@ -1,0 +1,26 @@
+server:
+  port: 8099
+spring:
+  application:
+    name: yz-springboot-demo
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/marketing_center?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root1234
+
+#mybatis:
+#    type-aliases-package: tk.mybatis.springboot.model
+#    mapper-locations: classpath:mapper/*.xml
+#
+#mapper:
+#    mappers:
+#        - tk.mybatis.springboot.util.MyMapper
+#    not-empty: false
+#    identity: MYSQL
+#
+#pagehelper:
+#    helperDialect: mysql
+#    reasonable: true
+#    supportMethodsArguments: true
+#    params: count=countSql
