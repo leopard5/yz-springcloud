@@ -11,6 +11,8 @@
     <modules>
         <module>eureka-server</module>
         <module>springboot-test</module>
+        <module>eureka-server-ha1</module>
+        <module>eureka-server-ha2</module>
     </modules>
 
 </project>
