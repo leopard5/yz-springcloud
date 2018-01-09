@@ -1,0 +1,9 @@
+server:
+  port: 8099
+spring:
+  application:
+    name: yz-springboot-test
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/

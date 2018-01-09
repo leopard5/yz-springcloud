@@ -11,5 +11,5 @@ eureka:
     fetch-registry: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-logging:
-  file: ${spring.application.name}.log
+  server:
+    enable-self-preservation: false
