@@ -13,6 +13,7 @@
         <module>eureka-client</module>
         <module>eureka-server-ha1</module>
         <module>eureka-server-ha2</module>
+        <module>eureka-consumer-ribbon</module>
     </modules>
 
 </project>

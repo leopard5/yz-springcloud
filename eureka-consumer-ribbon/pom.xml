@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yz</groupId>
-    <artifactId>eureka-client</artifactId>
+    <artifactId>eureka-consumer-ribbon</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
@@ -47,6 +47,10 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-ribbon</artifactId>
         </dependency>
     </dependencies>
 
