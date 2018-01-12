@@ -9,6 +9,7 @@
     <version>1.0</version>
 
     <modules>
+        <module>common-api</module>
         <module>eureka-server</module>
         <module>eureka-provider</module>
         <module>eureka-server-ha1</module>

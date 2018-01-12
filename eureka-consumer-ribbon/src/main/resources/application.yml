@@ -1,5 +1,5 @@
 server:
-  port: 8090
+  port: 2050
 spring:
   application:
     name: eureka-consumer-ribbon
