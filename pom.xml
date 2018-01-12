@@ -10,10 +10,11 @@
 
     <modules>
         <module>eureka-server</module>
-        <module>eureka-client</module>
+        <module>eureka-provider</module>
         <module>eureka-server-ha1</module>
         <module>eureka-server-ha2</module>
         <module>eureka-consumer-ribbon</module>
+        <module>eureka-consumer-ribbon-hystrix</module>
     </modules>
 
 </project>
