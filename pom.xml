@@ -6,7 +6,7 @@
     <groupId>com.yz</groupId>
     <artifactId>spring-cloud-all</artifactId>
     <packaging>pom</packaging>
-    <version>1.0</version>
+    <version>1.0.0.RELEASE</version>
 
     <modules>
         <module>common-api</module>
