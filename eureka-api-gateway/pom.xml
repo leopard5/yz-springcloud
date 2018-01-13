@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yz</groupId>
-    <artifactId>eureka-consumer-ribbon</artifactId>
+    <artifactId>eureka-api-gateway</artifactId>
     <version>1.0.0.RELEASE</version>
     <packaging>jar</packaging>
 
-    <name>eureka-consumer-ribbon</name>
-    <description>eureka-consumer-ribbon project for Spring Cloud example</description>
+    <name>eureka-api-gateway</name>
+    <description>eureka-api-gateway project for Spring Cloud example</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -26,11 +26,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.7</version>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -43,14 +38,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-ribbon</artifactId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
         </dependency>
     </dependencies>
 
@@ -74,6 +69,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>

@@ -11,11 +11,13 @@
     <modules>
         <module>common-api</module>
         <module>eureka-server</module>
+        <module>eureka-server-ha</module>
         <module>eureka-provider</module>
-        <module>eureka-server-ha1</module>
-        <module>eureka-server-ha2</module>
         <module>eureka-consumer-ribbon</module>
         <module>eureka-consumer-ribbon-hystrix</module>
+        <module>eureka-consumer-feign</module>
+        <module>eureka-consumer-feign-hystrix</module>
+        <module>eureka-api-gateway</module>
     </modules>
 
 </project>

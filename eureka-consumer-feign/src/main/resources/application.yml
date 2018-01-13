@@ -1,8 +1,8 @@
 server:
-  port: 3000
+  port: 3050
 spring:
   application:
-    name: eureka-consumer-ribbon-hystrix
+    name: eureka-consumer-feign
 eureka:
   client:
     serviceUrl:

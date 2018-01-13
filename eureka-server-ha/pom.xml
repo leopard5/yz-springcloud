@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.yz</groupId>
-	<artifactId>eureka-server-ha1</artifactId>
+	<artifactId>eureka-server-ha</artifactId>
 	<version>1.0.0.RELEASE</version>
 	<packaging>jar</packaging>
 
-	<name>eureka-server</name>
-	<description>Spring Cloud example</description>
+	<name>eureka-server-ha</name>
+	<description>eureka-server-ha project Spring boot example</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

@@ -11,6 +11,9 @@ public class UserODTO implements Serializable {
     private String mobile;
     private Integer serverPort;
 
+    public UserODTO() {
+    }
+
     public Long getId() {
         return id;
     }
@@ -50,4 +53,16 @@ public class UserODTO implements Serializable {
     public void setServerPort(Integer serverPort) {
         this.serverPort = serverPort;
     }
+
+    @Override
+    public String toString() {
+        return "UserODTO{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                ", mobile='" + mobile + '\'' +
+                ", serverPort=" + serverPort +
+                '}';
+    }
+
 }

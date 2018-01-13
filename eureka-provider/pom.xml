@@ -5,11 +5,11 @@
 
     <groupId>com.yz</groupId>
     <artifactId>eureka-provider</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0.RELEASE</version>
     <packaging>jar</packaging>
 
-    <name>springboot-test</name>
-    <description>Demo project for Spring Boot</description>
+    <name>eureka-provider</name>
+    <description>eureka-provider project for Spring Cloud example</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

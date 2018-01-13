@@ -1,9 +1,10 @@
 server:
-  port: 3000
+  port: 4000
 spring:
   application:
-    name: eureka-consumer-ribbon-hystrix
+    name: eureka-api-gateway
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:1112/eureka/,http://localhost:1113/eureka/
+

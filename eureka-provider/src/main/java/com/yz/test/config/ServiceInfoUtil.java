@@ -2,11 +2,13 @@ package com.yz.test.config;
 
 import org.springframework.boot.context.embedded.EmbeddedServletContainerInitializedEvent;
 import org.springframework.context.ApplicationListener;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.util.Assert;
 
 /**
  * @author yazhong
  */
+@Configuration
 public class ServiceInfoUtil implements ApplicationListener<EmbeddedServletContainerInitializedEvent> {
     private static EmbeddedServletContainerInitializedEvent event;
 

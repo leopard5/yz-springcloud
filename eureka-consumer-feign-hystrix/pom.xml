@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yz</groupId>
-    <artifactId>eureka-consumer-ribbon</artifactId>
+    <artifactId>eureka-consumer-feign-hystrix</artifactId>
     <version>1.0.0.RELEASE</version>
     <packaging>jar</packaging>
 
-    <name>eureka-consumer-ribbon</name>
-    <description>eureka-consumer-ribbon project for Spring Cloud example</description>
+    <name>eureka-consumer-feign-hystrix</name>
+    <description>eureka-consumer-feign-hystrix project for Spring Cloud example</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -25,6 +25,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.yz</groupId>
+            <artifactId>common-api</artifactId>
+            <version>1.0.0.RELEASE</version>
+        </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
@@ -43,14 +48,14 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-ribbon</artifactId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
         </dependency>
     </dependencies>
 
@@ -74,6 +79,5 @@
             </plugin>
         </plugins>
     </build>
-
 
 </project>

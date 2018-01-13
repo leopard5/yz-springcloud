@@ -5,11 +5,11 @@
 
     <groupId>com.yz</groupId>
     <artifactId>eureka-consumer-ribbon-hystrix</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0.RELEASE</version>
     <packaging>jar</packaging>
 
     <name>eureka-consumer-ribbon-hystrix</name>
-    <description>Demo project for Spring Boot</description>
+    <description>eureka-consumer-ribbon-hystrix project for Spring Cloud example</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
