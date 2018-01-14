@@ -1,5 +1,5 @@
 server:
-  port: 2051
+  port: 2050
 spring:
   application:
     name: eureka-provider

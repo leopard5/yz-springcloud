@@ -15,15 +15,15 @@ public class Application {
         new SpringApplicationBuilder(Application.class).web(true).run(args);
     }
 
-    @Bean
-    public AccessFilter accessFilter() {
-        return new AccessFilter();
-    }
-
-    @Bean
-    public PatternServiceRouteMapper serviceRouteMapper() {
-        return new PatternServiceRouteMapper(
-                "(?<name>^.+)-(?<version>v.+$)",
-                "${version}/${name}");
-    }
+//    @Bean
+//    public AccessFilter accessFilter() {
+//        return new AccessFilter();
+//    }
+//
+//    @Bean
+//    public PatternServiceRouteMapper serviceRouteMapper() {
+//        return new PatternServiceRouteMapper(
+//                "(?<name>^.+)-(?<version>v.+$)",
+//                "${version}/${name}");
+//    }
 }

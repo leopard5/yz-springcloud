@@ -1,0 +1,20 @@
+server:
+  port: 5050
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: aaaaa
+          search-paths: aaaaa
+          username: aaa
+          password: mmm
+
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:1112/eureka/,http://localhost:1113/eureka/
+#

@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yz</groupId>
-    <artifactId>eureka-api-gateway</artifactId>
+    <artifactId>eureka-gateway-zuul</artifactId>
     <version>1.0.0.RELEASE</version>
     <packaging>jar</packaging>
 
-    <name>eureka-api-gateway</name>
-    <description>eureka-api-gateway project for Spring Cloud example</description>
+    <name>eureka-gateway-zuul</name>
+    <description>eureka-gateway-zuul project for Spring Cloud example</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -25,19 +25,6 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka</artifactId>
