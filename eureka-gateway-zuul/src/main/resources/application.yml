@@ -11,3 +11,8 @@ eureka:
 #  ignored-services: '*'
 #  routes:
 #    eureka-provider: /user-service/**
+
+#zuul:
+#  AccessFilter:
+#    pre:
+#      disable: true

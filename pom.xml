@@ -19,6 +19,7 @@
         <module>eureka-consumer-feign-hystrix</module>
         <module>eureka-gateway-zuul</module>
         <module>config-server</module>
+        <module>config-client</module>
     </modules>
 
 </project>
