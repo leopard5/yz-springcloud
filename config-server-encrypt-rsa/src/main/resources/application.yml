@@ -1,5 +1,5 @@
 server:
-  port: 5058
+  port: 5059
 spring:
   application:
     name: config-server-encrypt
