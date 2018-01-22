@@ -1,8 +1,8 @@
 server:
-  port: 5058
+  port: 5057
 spring:
   application:
-    name: config-server-encrypt
+    name: config-server-authc
   cloud:
     config:
       server:
@@ -15,3 +15,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:1112/eureka/,http://localhost:1113/eureka/
+
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password123
