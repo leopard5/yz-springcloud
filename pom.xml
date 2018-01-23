@@ -23,6 +23,7 @@
         <module>config-server-encrypt</module>
         <module>config-server-encrypt-rsa</module>
         <module>config-server-authc</module>
+        <module>config-server-bus</module>
     </modules>
 
     <parent>
