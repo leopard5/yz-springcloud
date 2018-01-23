@@ -20,6 +20,7 @@
         <module>eureka-gateway-zuul</module>
         <module>config-server</module>
         <module>config-client</module>
+        <module>config-client-bus</module>
         <module>config-server-encrypt</module>
         <module>config-server-encrypt-rsa</module>
         <module>config-server-authc</module>
