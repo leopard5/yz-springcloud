@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.yz</groupId>
+        <artifactId>spring-cloud-all</artifactId>
+        <version>1.0.0.RELEASE</version>
+    </parent>
+
+    <artifactId>zipkin-server-stream-mysql</artifactId>
+    <packaging>jar</packaging>
+
+    <name>zipkin-server-stream-mysql</name>
+    <description>zipkin-server-stream-mysql project for Spring Cloud example</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

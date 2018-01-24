@@ -1,0 +1,10 @@
+server:
+  port: 7050
+spring:
+  application:
+    name: zipkin-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1112/eureka/,http://localhost:1113/eureka/
+

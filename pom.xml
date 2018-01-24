@@ -25,6 +25,13 @@
         <module>config-server-encrypt-rsa</module>
         <module>config-server-authc</module>
         <module>config-server-bus</module>
+        <module>sleuth-trace1</module>
+        <module>sleuth-trace2</module>
+        <module>sleuth-trace-stream1</module>
+        <module>sleuth-trace-stream2</module>
+        <module>zipkin-server</module>
+        <module>zipkin-server-stream</module>
+        <module>zipkin-server-stream-mysql</module>
     </modules>
 
     <parent>
