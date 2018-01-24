@@ -27,6 +27,7 @@
         <module>config-server-bus</module>
         <module>sleuth-trace1</module>
         <module>sleuth-trace2</module>
+        <module>sleuth-trace3</module>
         <module>sleuth-trace-stream1</module>
         <module>sleuth-trace-stream2</module>
         <module>zipkin-server</module>
