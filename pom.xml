@@ -25,6 +25,8 @@
         <module>config-server-encrypt-rsa</module>
         <module>config-server-authc</module>
         <module>config-server-bus</module>
+        <module>stream-producer</module>
+        <module>stream-consumer</module>
         <module>sleuth-trace1</module>
         <module>sleuth-trace2</module>
         <module>sleuth-trace3</module>

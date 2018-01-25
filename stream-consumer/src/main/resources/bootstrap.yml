@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: mq201.dev.rs.com
+    port: 5672
+    username: dev
+    password: dev_user
+management:
+  security:
+    enabled: false
