@@ -2,7 +2,7 @@ server:
   port: 7002
 spring:
   zipkin:
-    base-url: http://localhost:7050
+    base-url: http://localhost:9411
   sleuth:
     sampler:
       percentage: 0.1
