@@ -14,7 +14,7 @@ public class SinkSender4 {
     @Bean
     @InboundChannelAdapter(value = Source.OUTPUT, poller = @Poller(fixedDelay = "2000"))
     public MessageSource<String> timerMessageSource() {
-        return () -> new GenericMessage<>("{\"name\":\"didi\", \"age\":30}");
+        return () -> new GenericMessage<>("{\"name\":\"qiyazhong\", \"age\":30}");
     }
 
 //    配置属性
