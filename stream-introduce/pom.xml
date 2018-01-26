@@ -9,25 +9,16 @@
         <version>1.0.0.RELEASE</version>
     </parent>
 
-    <artifactId>stream-consumer</artifactId>
+    <artifactId>stream-introduce</artifactId>
     <packaging>jar</packaging>
 
-    <name>stream-consumer</name>
-    <description>stream-consumer project for Spring Cloud example</description>
+    <name>stream-introduce</name>
+    <description>stream-introduce project for Spring Cloud example</description>
 
     <dependencies>
         <dependency>
-            <groupId>com.yz</groupId>
-            <artifactId>common-api</artifactId>
-            <version>1.0.0.RELEASE</version>
-        </dependency>
-        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

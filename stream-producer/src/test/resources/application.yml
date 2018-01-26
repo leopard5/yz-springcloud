@@ -1,8 +1,8 @@
 server:
-  port: 8010
+  port: 8000
 spring:
   application:
-    name: stream-producer
+    name: stream-introduce
   rabbitmq:
     host: mq201.dev.rs.com
     port: 5672

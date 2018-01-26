@@ -1,13 +1,11 @@
+server:
+  port: 8000
 spring:
-  cloud:
-    bus:
-      trace:
-        enabled: true
+  application:
+    name: stream-introduce
   rabbitmq:
     host: mq201.dev.rs.com
     port: 5672
     username: dev
     password: dev_user
-management:
-  security:
-    enabled: false
+

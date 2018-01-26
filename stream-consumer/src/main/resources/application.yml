@@ -1,18 +1,10 @@
 server:
-  port: 5070
+  port: 8030
 spring:
   application:
-    name: config-server-bus
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/leopard5/yz-springcloud-config.git
-          search-paths: config-repo/
-          username: leopard5
-          password: xixiqi88JK99
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:1112/eureka/,http://localhost:1113/eureka/
-
+    name: stream-consumer
+  rabbitmq:
+    host: mq201.dev.rs.com
+    port: 5672
+    username: dev
+    password: dev_user
