@@ -15,7 +15,7 @@ public class TestController {
 
     @RequestMapping(value = "/ribbon/{id}", method = {RequestMethod.GET})
     public String findById(@PathVariable Long id) {
-        return restTemplate.getForObject("http://eureka-client/user/" + id, String.class);
+        return restTemplate.getForObject("http://eureka-provider/user/" + id, String.class);
     }
 
 }
