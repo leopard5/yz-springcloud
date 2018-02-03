@@ -1,10 +1,19 @@
 server:
-  port: 7050
+  port: 8090
 spring:
   application:
-    name: zipkin-server
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:1112/eureka/,http://localhost:1113/eureka/
-
+    name: zipkin-server-stream
+  rabbitmq:
+    host: mq201.dev.rs.com
+    port: 5672
+    username: dev
+    password: dev_user
+# log trace detail
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          servlet:
+            DispatcherServlet: DEBUG
+logfile: ${spring.application.name}.log
