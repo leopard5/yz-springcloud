@@ -1,10 +1,32 @@
 server:
-  port: 7050
+  port: 8095
 spring:
   application:
-    name: zipkin-server
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:1112/eureka/,http://localhost:1113/eureka/
-
+    name: zipkin-server-stream-mysql
+  rabbitmq:
+    host: mq201.dev.rs.com
+    port: 5672
+    username: dev
+    password: dev_user
+  datasource:
+    schema: classpath:/mysql.sql
+    url: jdbc:mysql://localhost:3306/zipkin
+    username: root
+    password: root1234
+    continue-on-error: true
+    initialize: true
+    driver-class-name: com.mysql.jdbc.Driver
+zipkin:
+  storage:
+    type: mysql
+    username: root
+    password: root1234
+# log trace detail
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          servlet:
+            DispatcherServlet: DEBUG
+logfile: ${spring.application.name}.log
